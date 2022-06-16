@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+#Fairly simple transformation of coordinates
+#Usage:
+#argv1= whatever gff, in my case, this was my domain annotations
+
+
 #Import modules
 import sys
 import pandas

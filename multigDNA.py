@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+#Generates 0 indexed genomic coordinates, in which everything is relative to the start of it's own genomic annotation
+#Usage
+#argv1=TE annotations of the genome (RM output)
+#argv2=Intersect output
+#We take our genomic annotations, find them and generate a value I've called 'intron_space', which is essentially the correction factor required for the element to be subtracted.
+
+
 #Import modules
 import sys
 import pandas
